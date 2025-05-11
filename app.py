@@ -5,20 +5,32 @@ from datetime import datetime
 
 app = Flask(__name__)
 
+def get_data_dir():
+    """Get the absolute path to the data directory."""
+    base_dir = os.path.abspath(os.path.dirname(__file__))
+    return os.path.join(base_dir, 'daoip-5', 'json', 'stellar')
+
 def load_stellar_data():
     """Load Stellar Community Fund data."""
-    stellar_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'daoip-5', 'json', 'stellar', 'grants_pool.json')
-    with open(stellar_path, 'r') as f:
-        return json.load(f)
+    try:
+        stellar_path = os.path.join(get_data_dir(), 'grants_pool.json')
+        with open(stellar_path, 'r') as f:
+            return json.load(f)
+    except Exception as e:
+        app.logger.error(f"Error loading stellar data: {str(e)}")
+        return {"grantPools": []}
 
 def load_grant_pool_applications(pool_id):
     """Load applications for a specific grant pool."""
     try:
-        applications_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), 
-                                       'daoip-5', 'json', 'stellar', f'scf-{pool_id}_applications_uri.json')
+        applications_path = os.path.join(get_data_dir(), f'scf-{pool_id}_applications_uri.json')
         with open(applications_path, 'r') as f:
             return json.load(f)
     except FileNotFoundError:
+        app.logger.warning(f"Applications file not found for pool {pool_id}")
+        return {"applications": []}
+    except Exception as e:
+        app.logger.error(f"Error loading applications for pool {pool_id}: {str(e)}")
         return {"applications": []}
 
 @app.route('/')
@@ -92,6 +104,21 @@ def get_stellar_pool(pool_id):
         return jsonify(pool)
     
     return jsonify({'error': 'Grant pool not found'}), 404
+
+@app.route('/debug/paths')
+def debug_paths():
+    """Debug endpoint to check paths and file existence."""
+    data_dir = get_data_dir()
+    stellar_path = os.path.join(data_dir, 'grants_pool.json')
+    
+    return jsonify({
+        'base_dir': os.path.abspath(os.path.dirname(__file__)),
+        'data_dir': data_dir,
+        'stellar_path': stellar_path,
+        'stellar_exists': os.path.exists(stellar_path),
+        'data_dir_exists': os.path.exists(data_dir),
+        'data_dir_contents': os.listdir(data_dir) if os.path.exists(data_dir) else []
+    })
 
 if __name__ == '__main__':
     app.run(debug=True) 
