@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stellar Community Fund Explorer</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body class="bg-gray-50">
+    <div class="container mx-auto px-4 py-8">
+        <header class="mb-8">
+            <h1 class="text-4xl font-bold text-gray-900 mb-2">Stellar Community Fund Explorer</h1>
+            <p class="text-gray-600">Explore the impact and history of the Stellar Community Fund</p>
+        </header>
+
+        <!-- Overview Section -->
+        <div id="overview" class="mb-8">
+            <h2 class="text-2xl font-semibold text-gray-800 mb-4">Overview</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div class="bg-white rounded-lg shadow p-6">
+                    <h3 class="text-lg font-semibold text-gray-700 mb-2">Total Funding Disbursed</h3>
+                    <p id="totalFunding" class="text-3xl font-bold text-blue-600">-</p>
+                </div>
+                <div class="bg-white rounded-lg shadow p-6">
+                    <h3 class="text-lg font-semibold text-gray-700 mb-2">Total Applications</h3>
+                    <p id="totalApplications" class="text-3xl font-bold text-green-600">-</p>
+                </div>
+                <div class="bg-white rounded-lg shadow p-6">
+                    <h3 class="text-lg font-semibold text-gray-700 mb-2">Success Rate</h3>
+                    <p id="successRate" class="text-3xl font-bold text-purple-600">-</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Grant Pools Section -->
+        <div id="grantPools" class="mb-8">
+            <h2 class="text-2xl font-semibold text-gray-800 mb-4">Grant Pools</h2>
+            <div class="bg-white rounded-lg shadow overflow-hidden">
+                <div class="overflow-x-auto">
+                    <table class="min-w-full divide-y divide-gray-200">
+                        <thead class="bg-gray-50">
+                            <tr>
+                                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Round</th>
+                                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Status</th>
+                                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Funding</th>
+                                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Applications</th>
+                                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Awards</th>
+                                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody id="grantPoolsTable" class="bg-white divide-y divide-gray-200">
+                            <!-- Table content will be populated by JavaScript -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- Grant Pool Detail Modal -->
+        <div id="poolDetailModal" class="fixed inset-0 bg-gray-600 bg-opacity-50 hidden overflow-y-auto h-full w-full">
+            <div class="relative top-20 mx-auto p-5 border w-4/5 shadow-lg rounded-md bg-white">
+                <div class="mt-3">
+                    <h3 id="modalTitle" class="text-lg font-medium text-gray-900 mb-4"></h3>
+                    <div id="modalContent" class="mt-2">
+                        <!-- Modal content will be populated by JavaScript -->
+                    </div>
+                    <div class="mt-4">
+                        <button onclick="closeModal()" class="bg-gray-500 text-white px-4 py-2 rounded hover:bg-gray-600">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Fetch and display overview statistics
+        fetch('/api/stellar/overview')
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('totalFunding').textContent = `$${data.totalFunding.toLocaleString()}`;
+                document.getElementById('totalApplications').textContent = data.totalApplications.toLocaleString();
+                document.getElementById('successRate').textContent = `${data.successRate.toFixed(1)}%`;
+            });
+
+        // Fetch and display grant pools
+        fetch('/api/stellar/pools')
+            .then(response => response.json())
+            .then(pools => {
+                const tableBody = document.getElementById('grantPoolsTable');
+                pools.forEach(pool => {
+                    const row = document.createElement('tr');
+                    const funding = pool.totalGrantPoolSize[0].amount === 'NaN' ? 'N/A' : 
+                                  `$${parseFloat(pool.totalGrantPoolSize[0].amount).toLocaleString()}`;
+                    
+                    // Extract applications and awards from description
+                    let applications = 'N/A';
+                    let awards = 'N/A';
+                    if (pool.description.includes('received ')) {
+                        applications = pool.description.split('received ')[1].split(' total')[0];
+                        awards = pool.description.split('and ')[1].split(' were')[0];
+                    }
+
+                    row.innerHTML = `
+                        <td class="px-6 py-4 whitespace-nowrap">
+                            <div class="text-sm font-medium text-gray-900">${pool.name}</div>
+                        </td>
+                        <td class="px-6 py-4 whitespace-nowrap">
+                            <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full ${pool.isOpen ? 'bg-green-100 text-green-800' : 'bg-red-100 text-red-800'}">
+                                ${pool.isOpen ? 'Open' : 'Closed'}
+                            </span>
+                        </td>
+                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                            ${funding}
+                        </td>
+                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                            ${applications}
+                        </td>
+                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                            ${awards}
+                        </td>
+                        <td class="px-6 py-4 whitespace-nowrap text-sm font-medium">
+                            <button onclick="showPoolDetail(${pool.id})" class="text-blue-600 hover:text-blue-900">View Details</button>
+                        </td>
+                    `;
+                    tableBody.appendChild(row);
+                });
+            });
+
+        function showPoolDetail(poolId) {
+            fetch(`/api/stellar/pools/${poolId}`)
+                .then(response => response.json())
+                .then(pool => {
+                    const modal = document.getElementById('poolDetailModal');
+                    const title = document.getElementById('modalTitle');
+                    const content = document.getElementById('modalContent');
+
+                    title.textContent = pool.name;
+                    
+                    // Create detailed view content
+                    content.innerHTML = `
+                        <div class="space-y-4">
+                            <div>
+                                <h4 class="font-semibold">Description</h4>
+                                <p class="text-gray-600">${pool.description}</p>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold">Key Metrics</h4>
+                                <ul class="list-disc list-inside text-gray-600">
+                                    <li>Total Applications: ${pool.totalApplications || 'N/A'}</li>
+                                    <li>Total Awards: ${pool.totalAwards || 'N/A'}</li>
+                                    <li>Funding Amount: $${parseFloat(pool.totalGrantPoolSize[0].amount).toLocaleString()}</li>
+                                    <li>Close Date: ${new Date(pool.closeDate).toLocaleDateString()}</li>
+                                </ul>
+                            </div>
+                            ${pool.applications.length > 0 ? `
+                                <div>
+                                    <h4 class="font-semibold">Applications</h4>
+                                    <div class="mt-2 space-y-2">
+                                        ${pool.applications.map(app => `
+                                            <div class="bg-gray-50 p-3 rounded">
+                                                <p class="font-medium">${app.name || 'Unnamed Application'}</p>
+                                                <p class="text-sm text-gray-600">${app.description || 'No description available'}</p>
+                                            </div>
+                                        `).join('')}
+                                    </div>
+                                </div>
+                            ` : ''}
+                        </div>
+                    `;
+
+                    modal.classList.remove('hidden');
+                });
+        }
+
+        function closeModal() {
+            document.getElementById('poolDetailModal').classList.add('hidden');
+        }
+    </script>
+</body>
+</html> 
