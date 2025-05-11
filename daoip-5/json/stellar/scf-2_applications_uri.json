@@ -1,0 +1,202 @@
+{
+  "@context": "http://www.daostar.org/schemas",
+  "name": "Stellar Community Fund",
+  "type": "Foundation",
+  "grantPools": [
+    {
+      "type": "GrantPool",
+      "name": "SCF #2",
+      "applications": [
+        {
+          "type": "GrantApplication",
+          "id": "2-620",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 2,
+          "grantPoolName": "SCF #2",
+          "projectsURI": "",
+          "projectName": "LOBSTR - Ultra Stellar + Lobstr",
+          "createdAt": "2019-09-29T00:00:00",
+          "projectDescription": "Simple and secure Stellar wallet available on the web, Android and iOS. nan",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/reckAPLIsrEDIE0Zb",
+          "status": "funded",
+          "socials": [
+            {
+              "platform": "Twitter",
+              "url": "https://twitter.com/ultrastellar"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": "nan",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "nan",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "2-621",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 2,
+          "grantPoolName": "SCF #2",
+          "projectsURI": "",
+          "projectName": "GetBlockCard.com - Use XLM where VISA is accepted (50 million merchants) - GetBlockCard.com",
+          "createdAt": "2019-09-29T00:00:00",
+          "projectDescription": "nan nan",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recTEBVyna1Qu0sly",
+          "status": "funded",
+          "socials": [],
+          "fundsApproved": [
+            {
+              "amount": "nan",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "nan",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "2-622",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 2,
+          "grantPoolName": "SCF #2",
+          "projectsURI": "",
+          "projectName": "StellarPay - Shopify Merchants Can Now Accept Stellar Payments - StellarPay",
+          "createdAt": "2019-09-29T00:00:00",
+          "projectDescription": "nan nan",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recNRH9HXfzuEZIjZ",
+          "status": "funded",
+          "socials": [],
+          "fundsApproved": [
+            {
+              "amount": "nan",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "nan",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "2-623",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 2,
+          "grantPoolName": "SCF #2",
+          "projectsURI": "",
+          "projectName": "City States: Medieval - City States: Medieval",
+          "createdAt": "2019-09-29T00:00:00",
+          "projectDescription": "nan nan",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/rec91ZpPLUGNsfPSw",
+          "status": "funded",
+          "socials": [],
+          "fundsApproved": [
+            {
+              "amount": "nan",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "nan",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "2-624",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 2,
+          "grantPoolName": "SCF #2",
+          "projectsURI": "",
+          "projectName": "Stellarport - Stellar Wallet, DEX & Anchor - Stellarport",
+          "createdAt": "2019-09-29T00:00:00",
+          "projectDescription": "nan nan",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recpMYd0rjGNLniyz",
+          "status": "funded",
+          "socials": [],
+          "fundsApproved": [
+            {
+              "amount": "nan",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "nan",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "2-625",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 2,
+          "grantPoolName": "SCF #2",
+          "projectsURI": "",
+          "projectName": "Centaurus - second layer payment network, exchange, and scaling solution - Centaurus",
+          "createdAt": "2019-09-29T00:00:00",
+          "projectDescription": "nan nan",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recg4KmfUXrrNOHbG",
+          "status": "funded",
+          "socials": [],
+          "fundsApproved": [
+            {
+              "amount": "nan",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "nan",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "2-626",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 2,
+          "grantPoolName": "SCF #2",
+          "projectsURI": "",
+          "projectName": "Astrocore \u2014 rusted Stellar-core - Astrocore",
+          "createdAt": "2019-09-29T00:00:00",
+          "projectDescription": "nan nan",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recZlfegu12ecDh0e",
+          "status": "funded",
+          "socials": [],
+          "fundsApproved": [
+            {
+              "amount": "nan",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "nan",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "2-627",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 2,
+          "grantPoolName": "SCF #2",
+          "projectsURI": "",
+          "projectName": "StellarAuth \u2022 The best way to integrate Stellar into your apps - StellarAuth",
+          "createdAt": "2019-09-29T00:00:00",
+          "projectDescription": "nan nan",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recUupl1g4dKZ18Fq",
+          "status": "funded",
+          "socials": [],
+          "fundsApproved": [
+            {
+              "amount": "nan",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "nan",
+          "payoutAddress": {},
+          "payouts": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "@context": "http://www.daostar.org/schemas",
+  "name": "Stellar Community Fund",
+  "type": "Foundation",
+  "grantPools": [
+    {
+      "type": "GrantPool",
+      "name": "SCF #4",
+      "applications": [
+        {
+          "type": "GrantApplication",
+          "id": "4-604",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 4,
+          "grantPoolName": "SCF #4",
+          "projectsURI": "",
+          "projectName": "NiceTrade - NiceTrade",
+          "createdAt": "2020-03-22T00:00:00",
+          "projectDescription": "nan nan",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recyhzzgGCQVXFo7r",
+          "status": "funded",
+          "socials": [],
+          "fundsApproved": [
+            {
+              "amount": "nan",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "nan",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "4-605",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 4,
+          "grantPoolName": "SCF #4",
+          "projectsURI": "",
+          "projectName": "COINQVEST - Whalestack",
+          "createdAt": "2020-03-22T00:00:00",
+          "projectDescription": "Enterprise Cryptocurrency Payment Processing. Accept Digital Currencies, Settle in USD, EUR, NGN. I can't access external websites directly. However, you can copy and paste the content here, and I can help you streamline the format.",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recTcTox813mQJThm",
+          "status": "funded",
+          "socials": [],
+          "fundsApproved": [
+            {
+              "amount": "nan",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "nan",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "4-606",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 4,
+          "grantPoolName": "SCF #4",
+          "projectsURI": "",
+          "projectName": "SendIt - Payment via Email - Sendit",
+          "createdAt": "2020-03-22T00:00:00",
+          "projectDescription": "nan nan",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recDLqNaPrMbRxI77",
+          "status": "funded",
+          "socials": [],
+          "fundsApproved": [
+            {
+              "amount": "nan",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "nan",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "4-607",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 4,
+          "grantPoolName": "SCF #4",
+          "projectsURI": "",
+          "projectName": "Stellar Tip - Tipping for content creators and developers - Stellar Tip",
+          "createdAt": "2020-03-22T00:00:00",
+          "projectDescription": "nan nan",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recLG9qWeD5OX4xTP",
+          "status": "funded",
+          "socials": [],
+          "fundsApproved": [
+            {
+              "amount": "nan",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "nan",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "4-608",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 4,
+          "grantPoolName": "SCF #4",
+          "projectsURI": "",
+          "projectName": "Stellot - e-Voting platform - Stellot",
+          "createdAt": "2020-03-22T00:00:00",
+          "projectDescription": "nan nan",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/rec4OC7H7Ywe9d5gN",
+          "status": "funded",
+          "socials": [],
+          "fundsApproved": [
+            {
+              "amount": "nan",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "nan",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "4-609",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 4,
+          "grantPoolName": "SCF #4",
+          "projectsURI": "",
+          "projectName": "Lumenscan - Stellar Ledger Explorer - Lumenscan",
+          "createdAt": "2020-03-22T00:00:00",
+          "projectDescription": "nan nan",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recP2TjM2jW0hPBrk",
+          "status": "funded",
+          "socials": [],
+          "fundsApproved": [
+            {
+              "amount": "nan",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "nan",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "4-610",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 4,
+          "grantPoolName": "SCF #4",
+          "projectsURI": "",
+          "projectName": "Papaya anchor (apay.io) - Apay.io",
+          "createdAt": "2020-03-22T00:00:00",
+          "projectDescription": "Anchor for BTC, USDT, LTC, ETH, KIN and other cryptocurrencies and tokens I can't access external websites directly. Please provide the content you need streamlined, and I'll be happy to help.",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recEs9206olVJrm5i",
+          "status": "funded",
+          "socials": [],
+          "fundsApproved": [
+            {
+              "amount": "nan",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "nan",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "4-611",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 4,
+          "grantPoolName": "SCF #4",
+          "projectsURI": "",
+          "projectName": "SDK for Stellar Qt - SDK for Stellar Qt",
+          "createdAt": "2020-03-22T00:00:00",
+          "projectDescription": "New developments to the Stellar ecosystem StellarMint: Stellar Tokens Made Easier\n\nStellarMint is a platform that simplifies the creation and management of Stellar tokens. It allows users to create, distribute, and manage their tokens without needing to write any code. The platform is designed to be user-friendly and accessible to everyone, regardless of their technical expertise.\n\nKey Features:\n- Token Creation: Easily create your own Stellar tokens with a few clicks.\n- Distribution: Distribute your tokens to multiple recipients in a single transaction.\n- Management: Manage your tokens, including setting up trustlines and issuing additional tokens.\n\nStellarMint aims to make the process of creating and managing Stellar tokens as simple and straightforward as possible. Whether you're a developer, a business owner, or just someone interested in creating your own tokens, StellarMint provides the tools you need to get started quickly and easily.",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recXb0s7x1Lm8XyXY",
+          "status": "funded",
+          "socials": [],
+          "fundsApproved": [
+            {
+              "amount": "nan",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "nan",
+          "payoutAddress": {},
+          "payouts": []
+        }
+      ]
+    }
+  ]
+}

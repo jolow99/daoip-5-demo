@@ -1,0 +1,19 @@
+{
+    "@context": "http://www.daostar.org/schemas",
+    "name": "Arbitrumfoundation",
+    "type": "Foundation",
+    "grantPools": [
+        {
+            "type": "GrantPool",
+            "id": "stip-1",
+            "name": "stip-1",
+            "description": "Grants pool for stip-1.",
+            "isOpen": false,
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/arbitrumfoundation/stip-1_applications_uri.json",
+            "requiredCredentials": [
+                "DAO Attestation",
+                "KYC"
+            ]
+        }
+    ]
+}

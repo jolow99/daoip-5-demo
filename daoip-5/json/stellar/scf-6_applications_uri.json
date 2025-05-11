@@ -1,0 +1,197 @@
+{
+  "@context": "http://www.daostar.org/schemas",
+  "name": "Stellar Community Fund",
+  "type": "Foundation",
+  "grantPools": [
+    {
+      "type": "GrantPool",
+      "name": "SCF #6",
+      "applications": [
+        {
+          "type": "GrantApplication",
+          "id": "6-587",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 6,
+          "grantPoolName": "SCF #6",
+          "projectsURI": "",
+          "projectName": "Ayadee TRAK Supply Chain System - Ayadee TRAK",
+          "createdAt": "2020-09-20T00:00:00",
+          "projectDescription": "Through our use of Stellar, we are building a universal supply chain tracking tool that is fast, easy to use and will function in environments with low-Internet connectivity. Stellar was the best system upon which we could build to serve users in developing countries with limited electrical and Internet access, as well as a need for low costs and a simple tool. nan",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recJBwJZzLVSH5ppK",
+          "status": "funded",
+          "socials": [],
+          "fundsApproved": [
+            {
+              "amount": "16737.09",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "16737.09",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "6-588",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 6,
+          "grantPoolName": "SCF #6",
+          "projectsURI": "",
+          "projectName": "Relax - Relax",
+          "createdAt": "2020-09-20T00:00:00",
+          "projectDescription": "nan nan",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recdDizcOwENDizno",
+          "status": "funded",
+          "socials": [],
+          "fundsApproved": [
+            {
+              "amount": "4514.95",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "4514.95",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "6-589",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 6,
+          "grantPoolName": "SCF #6",
+          "projectsURI": "",
+          "projectName": "Lumenswap - Lumenswap",
+          "createdAt": "2020-09-20T00:00:00",
+          "projectDescription": "nan nan",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recu69dUtviRW6oC7",
+          "status": "funded",
+          "socials": [],
+          "fundsApproved": [
+            {
+              "amount": "6786.63",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "6786.63",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "6-590",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 6,
+          "grantPoolName": "SCF #6",
+          "projectsURI": "",
+          "projectName": "Blocknify - Blocknify",
+          "createdAt": "2020-09-20T00:00:00",
+          "projectDescription": "nan nan",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recmPFaKMX2it9tRt",
+          "status": "funded",
+          "socials": [],
+          "fundsApproved": [
+            {
+              "amount": "4543.37",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "4543.37",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "6-591",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 6,
+          "grantPoolName": "SCF #6",
+          "projectsURI": "",
+          "projectName": "DEB - DEB",
+          "createdAt": "2020-09-20T00:00:00",
+          "projectDescription": "nan nan",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recZLr4loEBkuuARn",
+          "status": "funded",
+          "socials": [],
+          "fundsApproved": [
+            {
+              "amount": "653.09",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "653.09",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "6-592",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 6,
+          "grantPoolName": "SCF #6",
+          "projectsURI": "",
+          "projectName": "Crypto Link - Crypto Link",
+          "createdAt": "2020-09-20T00:00:00",
+          "projectDescription": "nan nan",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recsOeH8VBQkVx4KL",
+          "status": "funded",
+          "socials": [],
+          "fundsApproved": [
+            {
+              "amount": "3606.28",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "3606.28",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "6-593",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 6,
+          "grantPoolName": "SCF #6",
+          "projectsURI": "",
+          "projectName": "EduNode: Meet, learn and build on the Stellar Network - EduNode",
+          "createdAt": "2020-09-20T00:00:00",
+          "projectDescription": "Learn about building on the Stellar Network, connect with community members and receive payments for content creation. nan",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recTuXIwr6ihJov7c",
+          "status": "funded",
+          "socials": [],
+          "fundsApproved": [
+            {
+              "amount": "3123.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "3123.00",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "6-594",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 6,
+          "grantPoolName": "SCF #6",
+          "projectsURI": "",
+          "projectName": "Stellarscam.report - Stellarscam.report",
+          "createdAt": "2020-09-20T00:00:00",
+          "projectDescription": "Fraud detection and scam alert system for the Stellar community. nan",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recGmQ4CAX2gjf7qz",
+          "status": "funded",
+          "socials": [],
+          "fundsApproved": [
+            {
+              "amount": "5445.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "5445.00",
+          "payoutAddress": {},
+          "payouts": []
+        }
+      ]
+    }
+  ]
+}

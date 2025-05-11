@@ -1,0 +1,219 @@
+{
+  "@context": "http://www.daostar.org/schemas",
+  "name": "Stellar Community Fund",
+  "type": "Foundation",
+  "grantPools": [
+    {
+      "type": "GrantPool",
+      "name": "SCF #3",
+      "applications": [
+        {
+          "type": "GrantApplication",
+          "id": "3-612",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 3,
+          "grantPoolName": "SCF #3",
+          "projectsURI": "",
+          "projectName": "Stellar Term - StellarTerm",
+          "createdAt": "2019-12-14T00:00:00",
+          "projectDescription": "StellarTerm is an advanced web-based open-source trading client for the Stellar network. nan",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recGp2bg7OQlVFllx",
+          "status": "funded",
+          "socials": [],
+          "fundsApproved": [
+            {
+              "amount": "nan",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "nan",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "3-613",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 3,
+          "grantPoolName": "SCF #3",
+          "projectsURI": "",
+          "projectName": "Litemint - Litemint",
+          "createdAt": "2019-12-14T00:00:00",
+          "projectDescription": "Power your apps and games on Stellar nan",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recTdRTrjdI0eg1BW",
+          "status": "funded",
+          "socials": [
+            {
+              "platform": "Twitter",
+              "url": "https://twitter.com/LitemintHQ"
+            },
+            {
+              "platform": "Discord",
+              "url": "https://litemint.gg"
+            },
+            {
+              "platform": "LinkedIn",
+              "url": "https://www.linkedin.com/company/litemint"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": "nan",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "nan",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "3-614",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 3,
+          "grantPoolName": "SCF #3",
+          "projectsURI": "",
+          "projectName": "Paysapp - Stellar payments in Whatsapp - Paysapp",
+          "createdAt": "2019-12-14T00:00:00",
+          "projectDescription": "nan nan",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/rec4C0qVstIHsPgm0",
+          "status": "funded",
+          "socials": [],
+          "fundsApproved": [
+            {
+              "amount": "nan",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "nan",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "3-615",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 3,
+          "grantPoolName": "SCF #3",
+          "projectsURI": "",
+          "projectName": "Lumens for Charity - Donate XLM directly to Global Charities - Lumens for Charity",
+          "createdAt": "2019-12-14T00:00:00",
+          "projectDescription": "nan nan",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/rec3aAt6DPzGOh5bO",
+          "status": "funded",
+          "socials": [],
+          "fundsApproved": [
+            {
+              "amount": "nan",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "nan",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "3-616",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 3,
+          "grantPoolName": "SCF #3",
+          "projectsURI": "",
+          "projectName": "Stellar Battle - Stellar Battle",
+          "createdAt": "2019-12-14T00:00:00",
+          "projectDescription": "Win community-funded prizes by competing in small competitions that are chosen by the Stellar community. nan",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/rec8ayEkTa0W6PBNr",
+          "status": "funded",
+          "socials": [],
+          "fundsApproved": [
+            {
+              "amount": "nan",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "nan",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "3-617",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 3,
+          "grantPoolName": "SCF #3",
+          "projectsURI": "",
+          "projectName": "Public Node \u2013 Nodes funded by community - Public Node",
+          "createdAt": "2019-12-14T00:00:00",
+          "projectDescription": "nan nan",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recTji3f3i7o27OUM",
+          "status": "funded",
+          "socials": [
+            {
+              "platform": "Twitter",
+              "url": "https://twitter.com/publicnode"
+            },
+            {
+              "platform": "Discord",
+              "url": "https://discord.gg/pVR29p5NxK"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": "nan",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "nan",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "3-618",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 3,
+          "grantPoolName": "SCF #3",
+          "projectsURI": "",
+          "projectName": "Cosmic.link ~ Transactions over URL - Cosmic.link",
+          "createdAt": "2019-12-14T00:00:00",
+          "projectDescription": "nan nan",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recIehhTK99OHm3UH",
+          "status": "funded",
+          "socials": [],
+          "fundsApproved": [
+            {
+              "amount": "nan",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "nan",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "3-619",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 3,
+          "grantPoolName": "SCF #3",
+          "projectsURI": "",
+          "projectName": "Blue Orion - Stellar Workshops & Seminars - Blue Orion",
+          "createdAt": "2019-12-14T00:00:00",
+          "projectDescription": "nan nan",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/receayD2QsCLZdyXP",
+          "status": "funded",
+          "socials": [],
+          "fundsApproved": [
+            {
+              "amount": "nan",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "nan",
+          "payoutAddress": {},
+          "payouts": []
+        }
+      ]
+    }
+  ]
+}
